@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		59A572F32830856500FBF9EE /* SwiftUIIdentityAndTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A572F22830856500FBF9EE /* SwiftUIIdentityAndTransitionApp.swift */; };
-		59A572F52830856500FBF9EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A572F42830856500FBF9EE /* ContentView.swift */; };
 		59A572F72830856600FBF9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A572F62830856600FBF9EE /* Assets.xcassets */; };
 		59A572FA2830856600FBF9EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A572F92830856600FBF9EE /* Preview Assets.xcassets */; };
+		59A57302283085EE00FBF9EE /* ValueViewNoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A57301283085EE00FBF9EE /* ValueViewNoTransition.swift */; };
+		59A57304283087A400FBF9EE /* ValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A57303283087A400FBF9EE /* ValueView.swift */; };
+		59A573062830898C00FBF9EE /* ValueViewStructualTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A573052830898C00FBF9EE /* ValueViewStructualTransition.swift */; };
+		59A5730828308A5800FBF9EE /* ValueViewExplicitTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A5730728308A5800FBF9EE /* ValueViewExplicitTransition.swift */; };
+		59BA9A922831D34A007FC535 /* FlipAndSlideAnimationPlusTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA9A912831D34A007FC535 /* FlipAndSlideAnimationPlusTransition.swift */; };
+		59BA9A952831D38D007FC535 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA9A942831D38D007FC535 /* Card.swift */; };
+		59BA9A972831D7C7007FC535 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA9A962831D7C7007FC535 /* Navigation.swift */; };
+		59BA9A992831D7F6007FC535 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA9A982831D7F6007FC535 /* Transitions.swift */; };
+		59BA9A9B2831DB84007FC535 /* FlipAndSlideOnlyTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BA9A9A2831DB84007FC535 /* FlipAndSlideOnlyTransitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		59A572EF2830856500FBF9EE /* SwiftUIIdentityAndTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIdentityAndTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A572F22830856500FBF9EE /* SwiftUIIdentityAndTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIdentityAndTransitionApp.swift; sourceTree = "<group>"; };
-		59A572F42830856500FBF9EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59A572F62830856600FBF9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59A572F92830856600FBF9EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59A57301283085EE00FBF9EE /* ValueViewNoTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueViewNoTransition.swift; sourceTree = "<group>"; };
+		59A57303283087A400FBF9EE /* ValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueView.swift; sourceTree = "<group>"; };
+		59A573052830898C00FBF9EE /* ValueViewStructualTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueViewStructualTransition.swift; sourceTree = "<group>"; };
+		59A5730728308A5800FBF9EE /* ValueViewExplicitTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueViewExplicitTransition.swift; sourceTree = "<group>"; };
+		59BA9A912831D34A007FC535 /* FlipAndSlideAnimationPlusTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAndSlideAnimationPlusTransition.swift; sourceTree = "<group>"; };
+		59BA9A942831D38D007FC535 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		59BA9A962831D7C7007FC535 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		59BA9A982831D7F6007FC535 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		59BA9A9A2831DB84007FC535 /* FlipAndSlideOnlyTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAndSlideOnlyTransitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,10 @@
 		59A572F12830856500FBF9EE /* SwiftUIIdentityAndTransition */ = {
 			isa = PBXGroup;
 			children = (
+				59BA9A932831D387007FC535 /* Models */,
 				59A572F22830856500FBF9EE /* SwiftUIIdentityAndTransitionApp.swift */,
-				59A572F42830856500FBF9EE /* ContentView.swift */,
+				59BA9A902831D23B007FC535 /* Flip and Slide */,
+				59A573002830857800FBF9EE /* Value Views */,
 				59A572F62830856600FBF9EE /* Assets.xcassets */,
 				59A572F82830856600FBF9EE /* Preview Content */,
 			);
@@ -65,6 +83,36 @@
 				59A572F92830856600FBF9EE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59A573002830857800FBF9EE /* Value Views */ = {
+			isa = PBXGroup;
+			children = (
+				59A57301283085EE00FBF9EE /* ValueViewNoTransition.swift */,
+				59A573052830898C00FBF9EE /* ValueViewStructualTransition.swift */,
+				59A5730728308A5800FBF9EE /* ValueViewExplicitTransition.swift */,
+				59A57303283087A400FBF9EE /* ValueView.swift */,
+			);
+			path = "Value Views";
+			sourceTree = "<group>";
+		};
+		59BA9A902831D23B007FC535 /* Flip and Slide */ = {
+			isa = PBXGroup;
+			children = (
+				59BA9A912831D34A007FC535 /* FlipAndSlideAnimationPlusTransition.swift */,
+				59BA9A9A2831DB84007FC535 /* FlipAndSlideOnlyTransitions.swift */,
+				59BA9A982831D7F6007FC535 /* Transitions.swift */,
+				59BA9A962831D7C7007FC535 /* Navigation.swift */,
+			);
+			path = "Flip and Slide";
+			sourceTree = "<group>";
+		};
+		59BA9A932831D387007FC535 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59BA9A942831D38D007FC535 /* Card.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A572F52830856500FBF9EE /* ContentView.swift in Sources */,
+				59A5730828308A5800FBF9EE /* ValueViewExplicitTransition.swift in Sources */,
+				59BA9A9B2831DB84007FC535 /* FlipAndSlideOnlyTransitions.swift in Sources */,
+				59A573062830898C00FBF9EE /* ValueViewStructualTransition.swift in Sources */,
+				59BA9A952831D38D007FC535 /* Card.swift in Sources */,
+				59BA9A992831D7F6007FC535 /* Transitions.swift in Sources */,
+				59BA9A922831D34A007FC535 /* FlipAndSlideAnimationPlusTransition.swift in Sources */,
+				59A57304283087A400FBF9EE /* ValueView.swift in Sources */,
+				59BA9A972831D7C7007FC535 /* Navigation.swift in Sources */,
+				59A57302283085EE00FBF9EE /* ValueViewNoTransition.swift in Sources */,
 				59A572F32830856500FBF9EE /* SwiftUIIdentityAndTransitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
